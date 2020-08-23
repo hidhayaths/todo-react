@@ -6,7 +6,9 @@ In the project directory, you can run:
 
 ## Please setup your firebase.js in src/ export the db as follows to make this app works
 
-'import firebase from 'firebase';
+[firebase.js]
+``` 
+import firebase from 'firebase';
 
   const firebaseApp = firebase.initializeApp({
     apiKey: "",
@@ -21,9 +23,10 @@ In the project directory, you can run:
   const db = firebaseApp.firestore();
 
 
-  export {db};'
+  export {db}; 
+  ```
   
-## Please set up your firebase for FREE at firebase.google.com 
+# Please set up your firebase for FREE at firebase.google.com 
 
 ### `npm start`
 
