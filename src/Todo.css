@@ -1,0 +1,16 @@
+.todo__list{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+}
+
+.todo__listItem{
+    height:100px;
+    width:240px !important;
+    justify-content: space-between;
+    margin:1em;
+    border-radius: 10px;
+    box-shadow: -10px -10px 10px rgba(255,255,255,0.5), 10px 10px 10px rgba(0,0,0,0.12);
+}

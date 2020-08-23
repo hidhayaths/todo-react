@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App{
+  font-family: 'Poppins', sans-serif;
+  display:flex;
+  flex-flow: wrap column;
+  align-items: center;
+  background: #f4f4f4;
+  min-height:100vh;
+}
+
+.add__btn{
+  display: none !important;
+}
+
+.MuiFormControl-root{
+  margin-bottom: 1em !important;
+}
+
+.app__form{
+  margin-top:2em;
+  display:flex;
+  flex-flow:wrap column;
+  width:80%;
+}
