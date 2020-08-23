@@ -4,6 +4,27 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+## Please setup your firebase.js in src/ export the db as follows to make this app works
+
+'import firebase from 'firebase';
+
+  const firebaseApp = firebase.initializeApp({
+    apiKey: "",
+    authDomain: "",
+    databaseURL: "",
+    projectId: "",
+    storageBucket: "",
+    messagingSenderId: "",
+    appId: "",
+    measurementId: ""
+  }); 
+  const db = firebaseApp.firestore();
+
+
+  export {db};'
+  
+## Please set up your firebase for FREE at firebase.google.com 
+
 ### `npm start`
 
 Runs the app in the development mode.<br />
